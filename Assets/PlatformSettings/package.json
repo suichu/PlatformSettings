@@ -1,0 +1,10 @@
+{
+  "name": "net.suichu.platform-settings",
+  "version": "1.0.0",
+  "displayName": "PlatformSettings",
+  "description": "This tool is used to open the iOS/Android settings",
+  "unity": "6000.0",
+  "keywords": [
+    "settings"
+  ]
+}
