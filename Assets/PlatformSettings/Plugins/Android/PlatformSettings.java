@@ -1,4 +1,4 @@
-package com.ntt_us.konan2050xr;
+package net.suichu.tools;
 
 import android.content.Intent;
 import android.net.Uri;
