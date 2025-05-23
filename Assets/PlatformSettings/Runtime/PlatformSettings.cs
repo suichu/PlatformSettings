@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 #if UNITY_EDITOR
 public class PlatformSettings
@@ -6,7 +7,6 @@ public class PlatformSettings
   public static void openSettings() { }
 }
 #elif UNITY_IOS
-using System.Runtime.InteropServices;
 
 public class PlatformSettings {
   [DllImport("__Internal", EntryPoint = "openPlatformSettings")]
